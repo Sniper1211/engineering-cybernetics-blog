@@ -72,7 +72,14 @@
     @apply prose prose-gray dark:prose-invert max-w-none;
     @apply prose-headings:font-semibold;
     @apply prose-a:text-cybernetics-primary prose-a:no-underline hover:prose-a:underline;
-    @apply prose-code:rounded prose-code:bg-muted prose-code:px-1 prose-code:py-0.5 prose-code:font-mono;
     @apply prose-pre:bg-gray-900 prose-pre:text-gray-100;
+  }
+
+  .prose-custom :not(pre) > code {
+    @apply rounded bg-muted px-1 py-0.5 font-mono;
+  }
+
+  .prose-custom pre code {
+    @apply bg-transparent p-0;
   }
 }
