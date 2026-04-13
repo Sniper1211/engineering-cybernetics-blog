@@ -45,9 +45,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    // 可以添加Google Search Console验证
-  },
 };
 
 export default function RootLayout({

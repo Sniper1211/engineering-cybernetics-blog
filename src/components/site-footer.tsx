@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github, Twitter, Mail } from 'lucide-react';
+import { Github, Mail } from 'lucide-react';
 
 export function SiteFooter() {
   return (
@@ -36,26 +36,10 @@ export function SiteFooter() {
               </li>
               <li>
                 <Link
-                  href="/notes"
+                  href="/book"
                   className="text-muted-foreground hover:text-foreground transition-colors"
                 >
-                  学习笔记
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/applications"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  AI进化应用
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/about"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  关于项目
+                  合订阅读
                 </Link>
               </li>
             </ul>
@@ -113,13 +97,13 @@ export function SiteFooter() {
               >
                 <Github className="h-5 w-5" />
               </a>
-              <button
+              <a
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="发送邮件"
-                onClick={() => window.location.href = 'mailto:your-email@example.com'}
+                href="mailto:your-email@example.com"
               >
                 <Mail className="h-5 w-5" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

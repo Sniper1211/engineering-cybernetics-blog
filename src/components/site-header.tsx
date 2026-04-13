@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BookOpen, Home, Notebook, Cpu, Menu, X } from 'lucide-react';
+import { BookOpen, Home, Notebook, Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { ThemeToggle } from '@/components/theme-toggle';
@@ -7,8 +7,7 @@ import { ThemeToggle } from '@/components/theme-toggle';
 const navItems = [
   { name: '首页', href: '/', icon: Home },
   { name: '章节学习', href: '/chapters', icon: BookOpen },
-  { name: '学习笔记', href: '/notes', icon: Notebook },
-  { name: 'AI进化应用', href: '/applications', icon: Cpu },
+  { name: '合订阅读', href: '/book', icon: Notebook },
 ];
 
 export function SiteHeader() {
