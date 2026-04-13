@@ -53,7 +53,11 @@
     "eslint-config-next": "14.2.5",
     "postcss": "^8.4.0",
     "prettier": "^3.2.0",
-    "prettier-plugin-tailwindcss": "^0.5.11"
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-pretty-code": "^0.9.11",
+    "rehype-slug": "^5.1.0",
+    "remark-gfm": "^3.0.1"
   },
   "engines": {
     "node": ">=18.0.0",
