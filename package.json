@@ -1,0 +1,70 @@
+{
+  "name": "engineering-cybernetics-blog",
+  "version": "0.1.0",
+  "private": true,
+  "description": "钱学森《工程控制论》学习笔记与AI进化应用博客",
+  "author": "Sniper1211",
+  "license": "MIT",
+  "keywords": [
+    "engineering-cybernetics",
+    "qian-xuesen",
+    "control-theory",
+    "ai-evolution",
+    "learning-blog",
+    "nextjs",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "content": "contentlayer build",
+    "preview": "next build && next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.4.0",
+    "contentlayer": "^0.3.4",
+    "next-contentlayer": "^0.3.4",
+    "date-fns": "^3.0.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.2.0",
+    "lucide-react": "^0.344.0",
+    "@radix-ui/react-accordion": "^1.1.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@radix-ui/react-tooltip": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8.4.0",
+    "prettier": "^3.2.0",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sniper1211/engineering-cybernetics-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sniper1211/engineering-cybernetics-blog/issues"
+  },
+  "homepage": "https://engineering-cybernetics-blog.vercel.app"
+}
